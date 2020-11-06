@@ -6,7 +6,6 @@
  */
 
 
-echo '<pre>';
 
 $hello_world = [
     'status' => 'OK',
@@ -15,10 +14,10 @@ $hello_world = [
 
 
 
-print_r($hello_world);
 
 
+$layout = include __DIR__ . '/template/layout.php';
 
-echo '</pre>';
+
 
 // eof
